@@ -1,0 +1,11 @@
+QLabel#notice{
+border-color:gray; color:gray;
+}
+
+QLabel#notice[notice_level="normal"]{
+border-color:green; color:green;
+}
+
+QLabel#notice[notice_level="warning"]{
+border-color:yellow; color:yellow;
+}

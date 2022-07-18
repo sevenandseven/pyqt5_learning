@@ -1,0 +1,27 @@
+QLabel#l1 {
+    background-color:orange
+}
+QLabel#l1:hover {
+    background-color:gray
+}
+QPushButton#b2 {
+    background-color:cyan;
+    border:6px dotted yellow
+}
+QWidget#box2 QLabel {
+    background-color:pink;
+}
+QCheckBox::indicator {
+    width:20px;
+    height:20px;
+}
+QCheckBox::indicator:check {
+    image:url("../../xxx.png")
+}
+QCheckBox::indicator:check {
+    image:url("../../x.png")
+}
+
+QWidget:focus{
+    border:2px dotted green;
+}
